@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 48px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.navList a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #444;
+  transition: color 0.2s ease;
+}
+
+.navList a:hover {
+  color: #111;
+}
+
+.active {
+  font-weight: 600;
+  color: #0070f3;
+  border-bottom: 2px solid #0070f3;
+  padding-bottom: 2px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.actions a {
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.actions a:hover {
+  color: #111;
+}
+
+.signUp {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.signUp:hover {
+  background-color: #005bb5;
+}
+.iconContainer .icon {
+  margin-bottom: 25px;
+}

@@ -1,0 +1,119 @@
+:root {
+  --orange: #ff7043;
+  --orange-dark: #ff5722;
+  --muted: #f6f6f6;
+  --text-dark: #222;
+  --text-muted: #7a7a7a;
+  --card-bg: #fff9f8;
+  --card-border: rgba(34, 34, 34, 0.06);
+  --card-stroke: rgba(34, 34, 34, 0.03);
+  --shadow-weak: rgba(15, 15, 15, 0.05);
+  font-synthesis: weight style;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 60px 80px;
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfaf9 100%);
+  color: var(--text-dark);
+}
+
+.mainContent {
+  max-width: 520px;
+}
+.mainContent h1 {
+  font-size: 56px;
+  line-height: 1.05;
+  margin: 0 0 18px;
+  font-weight: 800;
+}
+.mainContent h1 .groceries {
+  color: var(--orange);
+}
+.mainContent p {
+  color: var(--text-muted);
+  font-size: 18px;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+
+.searchBox {
+  display: flex;
+  margin-bottom: 30px;
+}
+.searchBox input {
+  flex: 1;
+  padding: 14px 18px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  background: var(--muted);
+  font-size: 16px;
+  outline: none;
+}
+.searchBox button {
+  border: none;
+  padding: 0 18px;
+  border-radius: 0 10px 10px 0;
+  background: var(--orange);
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-muted);
+  font-size: 16px;
+}
+
+.imgContainer {
+  max-width: 460px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.spinachContainer {
+  border: #949494 solid 1px;
+  border-radius: 16px;
+}
+
+.spinachContainer p {
+  display: flex;
+  justify-content: center;
+}
+.spinachContainer img {
+  padding-left: 15px;
+  width: 120px;
+  height: 100px;
+}
+.carrotsContainer {
+  border: #949494 solid 1px;
+  border-radius: 16px;
+  margin-top: 10px;
+}
+
+.carrotsContainer p {
+  display: flex;
+  justify-content: center;
+}
+
+.carrotsContainer img {
+  width: 160px;
+  height: 91px;
+}
